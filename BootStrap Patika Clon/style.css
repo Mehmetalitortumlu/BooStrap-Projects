@@ -1,0 +1,101 @@
+body{
+  background-color: white;
+}
+
+
+#ul1{
+  text-decoration: none;
+  font-size: 12px;
+  transition: color 350ms;
+  font-family: 'Roboto Mono',sans-serif;
+  color: #000;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: -.02em;
+/*  */
+  
+}
+
+#ul1 li a{
+  color: black;
+  margin: 10px 10px 10px 10px;
+  transition: color 350ms;
+  font-family: 'Roboto Mono',sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: -.02em;
+  text-decoration: none;
+}
+#ul1 li a:hover{
+  color: blue;
+  transition: color 350ms;
+  
+}
+#ul1 button{
+  margin-left: 50px;
+  margin-top: 8px;
+  width: 80px;
+  height: 38px;
+  font-size: 12px;
+  
+}
+
+#div1{
+  height: 80vh;
+  max-width: 1222px;
+  
+}
+#div1 img{
+  position: relative;
+ left: 30rem;
+  top: -20rem;
+}
+
+#div1 button{
+  clear: both;
+  position: relative;
+  right: 36rem;
+   top: -14rem;
+}
+
+#div2 button{
+margin-left: 150px !important;
+color: blue;
+}
+#div2 button:hover{
+  margin-left: 150px !important;
+  color: black;
+}
+
+#div3{
+  margin-left: 180px !important;
+}
+#heading2{
+  color: purple;
+}
+
+#div3 button{
+  width: 250px;
+  margin: auto;
+}
+
+#div4 img{
+  width: 300px;
+  margin: auto;
+  
+}
+
+#div4 .card{
+  background: white;
+  border-radius:50px;
+}
+
+#div4 .card:hover{
+  box-shadow: 10px 10px 10px gray;
+}
+
+#div5 button{
+  width: 200px;
+  margin-left: 50rem;
+  margin-top: -6rem;
+}
