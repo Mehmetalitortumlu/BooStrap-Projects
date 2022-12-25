@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/ecef045295.js" crossorigin="anonymous"></script>
+    <title>Hello, world!</title>
+    <style>
+        main{
+            margin-top: 200px;
+            margin-bottom: 200px;
+        }
+        i{
+            margin-left: 50px;
+            font-size: 45px;
+            color: wheat;
+        }
+        i:hover:nth-child(1){
+            color: purple;
+        }
+        i:hover:nth-child(2){
+            color: red;
+        }
+        i:hover:nth-child(3){
+            color: blue;
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar Başlangıcı -->
+
+    <nav id="nav" class="navbar navbar-expand-lg navbar-dark bg-danger ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Yazılım</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#nav">Anasayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#main">İletişim</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Projelerim
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Proje-1</a></li>
+                            <li><a class="dropdown-item" href="#">Proje-2</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Proje-3</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-dark" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Navbar Bitişi -->
+
+    <!-- Orta Başlangıc   -->
+    <header>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://cdn.pixabay.com/photo/2015/09/09/19/56/office-932926_960_720.jpg"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                    <button class="btn btn-danger">Tıklayınız</button>
+                </div>
+            </div>
+    </header>
+    <!-- Orta Bitiş   -->
+
+
+    <!-- main başlangıç -->
+
+    <main id="main" class="w-50 mx-auto">
+        <h2 class="text-center mb-5">İletişim Formu</h2>
+        <form action="">
+        <div class="form-group mb-3">
+            <label class="form-label" for="name">Kullanıcı Adı:</label>
+            <input required placeholder="Lütfen isminizi giriniz." type="text"  id="name" class="form-control">
+            <label class="form-label" for="email">E-posta:</label>
+            <input required placeholder="Lütfen email giriniz." type="email"  id="email" class="form-control">
+            <label class="form-label" for="sifre">Şifre:</label>
+            <input required placeholder="Lütfen şifre giriniz." type="password"  id="sifre" class="form-control">
+            <select class="form-select mt-3" aria-label="Default select example">
+                <option selected>Şehir seçiniz.</option>
+                <option value="1">İstanbul</option>
+                <option value="2">Ankara</option>
+                <option value="3">İzmir</option>
+              </select>
+            <button type="submit" class="btn btn-danger mt-2">Gönder</button>
+        </form>
+        </div>
+    </main>
+    <!-- main bitiş -->
+
+
+
+    <!-- Footer Başlangıc -->
+    <footer id="footer" class="bg-danger p-5 text-white text-center">
+
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-twitter"></i>
+    </footer>
+
+    <!-- Footer Bitiş    -->
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
